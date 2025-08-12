@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: FastAPI/Uvicorn",
+            "type": "python",
+            "justMyCode": false,
+            "request": "launch",
+            "module": "uvicorn",
+            "args": [
+                "main:app",
+                "--host",
+                "127.0.0.1",
+                "--port",
+                "8000"
+            ],
+            "console": "integratedTerminal",
+            "env": {
+                "MINERU_TOOLS_CONFIG_JSON": "D:\\work\\python\\YSLD_PDF2MD_WebApi_TestFB\\magic-pdf-td.json"
+            }
+        }
+    ]
+}
