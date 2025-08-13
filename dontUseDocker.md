@@ -1,14 +1,14 @@
 # 当前版本直接运行
 准备
-1.复制exlaunch.json的内容到新的调试配置文件内
-2.修改调试配置文件的[MINERU_TOOLS_CONFIG_JSON]节点为当前项目内[magic-pdf.json]文件的绝对路径
-3.安装包：pip install -r requirements.txt 
+1.下载models到models文件夹下 地址：https://github.com/cstajj/Magic_PDF_WebApi_Models.git
+2.复制exlaunch.json的内容到新的调试配置文件内
+3.修改调试配置文件的[MINERU_TOOLS_CONFIG_JSON]节点为当前项目内[magic-pdf.json]文件的绝对路径
+4.安装包：pip install -r requirements.txt 
+
 
 运行
 调试：工具栏 [运行]=>[启动调试] 或 F5
 直接运行：uvicorn main:app --host 127.0.0.1 --port 8000
-
-
 
 
 # 更新magic-pdf
