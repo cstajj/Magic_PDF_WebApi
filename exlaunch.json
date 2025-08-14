@@ -16,7 +16,7 @@
             ],
             "console": "integratedTerminal",
             "env": {
-                "MINERU_TOOLS_CONFIG_JSON": "D:\\work\\python\\YSLD_PDF2MD_WebApi_TestFB\\magic-pdf-td.json"
+                "MINERU_TOOLS_CONFIG_JSON": "D:\\work\\python\\PDF2MDWebApi\\magic-pdf.json"
             }
         }
     ]

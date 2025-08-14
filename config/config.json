@@ -1,0 +1,20 @@
+{
+    "database": {
+      "url": "mssql+pyodbc://sa:cde3CDE#@10.20.14.47/YSLDTra?driver=ODBC Driver 17 for SQL Server",
+      "pool_size": 20,
+      "echo_sql": false
+    },
+    "celery_broker": {
+      "url": "redis://localhost:6379/0"
+    },
+    "app_secret_key": "O0RxmfhwMXWG9QIj0yRVo6sZe10ednfP",
+    "expired_second": 60000,
+    "logging": {
+      "level": "INFO",
+      "file_path": "logs/app.log",
+      "rotation": "10 MB",
+      "retention": "7 days",
+      "compression": "zip",
+      "serialize": false
+    }
+  }
