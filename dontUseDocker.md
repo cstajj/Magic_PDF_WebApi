@@ -3,7 +3,8 @@
 1.下载models到models文件夹下 地址：https://github.com/cstajj/Magic_PDF_WebApi_Models.git
 2.复制exlaunch.json的内容到新的调试配置文件内
 3.修改调试配置文件的[MINERU_TOOLS_CONFIG_JSON]节点为当前项目内[magic-pdf.json]文件的绝对路径
-4.安装包：pip install -r requirements.txt 
+4.创建并激活虚拟环境 ：手动创建虚拟环境后执行=》 .\.venv\Scripts\Activate.ps1
+5.安装包：pip install -r requirements.txt 
 
 运行
 调试：工具栏 [运行]=>[启动调试] 或 F5

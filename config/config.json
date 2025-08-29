@@ -1,6 +1,6 @@
 {
     "database": {
-      "url": "mssql+pyodbc://sa:cde3CDE#@10.20.14.47/YSLDTra?driver=ODBC Driver 17 for SQL Server",
+      "url": "mssql+pyodbc://sa:cde3CDE#@10.20.14.47/YSLDTra_Local?driver=ODBC Driver 17 for SQL Server",
       "pool_size": 20,
       "echo_sql": false
     },
